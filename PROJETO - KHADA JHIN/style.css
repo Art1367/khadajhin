@@ -1,0 +1,489 @@
+body{
+    background-color: rgb(18, 18, 18)
+}
+#imgjhin{
+    width: 100%;
+    height: 600px;
+}
+
+.jhin{
+    color: rgba(239, 191, 71, 0.788);
+    align-items: center;
+    text-align: center;
+    font-size: 120px;
+    margin: 0;
+    letter-spacing: 15px;
+}
+
+hr{
+    border-color: rgba(236, 172, 10, 0.69);
+    
+}
+
+.oVirtuoso{
+    color: bisque;
+    text-align: center;
+    opacity: 0.9;
+    letter-spacing: 10px;
+    margin-top: 30px;
+}
+
+#rostojhin{
+    height: 100px;
+    border-radius: 50%;
+    border: 4px solid rgba(171, 135, 45, 0.745);
+    border: 4px solid rgba(171, 135, 45, 0.745);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.bordajhin{
+    background-color: rgb(18, 18, 18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 690px;
+    margin-right: 690px;
+    margin-bottom: 100px;
+    border-radius: 60%;
+    height: 100px;
+    transition: all ease-in-out 0.5s;
+}    
+
+.bordajhin:hover{
+    transition: all ease-in-out 0.5s;
+    transform: scale(1.3);
+}
+
+.curiosidadesjhin{
+    background-color: rgb(17, 17, 30);
+    height: 800px;
+    display: inline-flex;
+    margin-left: 30px;
+    width: 93%;
+    border: 1px solid rgba(239, 208, 129, 0.69);
+    margin-left: 50px;
+    
+}
+
+.camprelacionados{
+    background-color: rgb(17, 17, 30);
+    width: 23%;
+    text-align: center; 
+    border: 1px solid rgba(239, 208, 129, 0.69);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.champtext{
+    margin-top: 75px;
+    color:rgba(235, 235, 185, 0.767);
+    font-size: 15px;
+}
+
+#linetext{
+    border: 1px solid rgba(239, 208, 129, 0.69);
+    margin-top: 50px;
+    width: 100%;
+}
+
+.imgshen{
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    border: 4px solid rgba(244, 209, 121, 0.441);
+    border-radius: 70%;
+    margin-top: 20px;
+}
+
+.textchamp{
+    display: flex;
+    flex-direction: column;
+    color: rgba(235, 235, 185, 0.767);
+}
+
+.imgzed{
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    border: 4px solid rgba(244, 209, 121, 0.441);
+    border-radius: 50%;
+    margin-top: 35px
+}
+
+.shenzoom{
+    transition: all ease-in-out 0.3s;
+
+}
+
+.shenzoom:hover{
+    transition: all ease-in-out 0.3s;
+    transform: scale(1.2);
+}
+
+.zedzoom{
+    transition: all ease-in-out 0.3s;
+}
+
+.zedzoom:hover{
+    transition: all ease-in-out 0.3s;
+    transform: scale(1.2);
+}
+
+.akalizoom{
+    transition: all ease-in-out 0.3s;
+}
+
+.akalizoom:hover{
+    transition: all ease-in-out 0.3s;
+    transform: scale(1.2);
+}
+
+.imgakali{
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    border: 4px solid rgba(244, 209, 121, 0.441);
+    border-radius: 50%;
+    margin-top: 20px
+}
+
+.frasejhin{
+    background-color: rgb(17, 17, 30);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 55%;
+    flex-direction: column;
+    border: 1px solid rgba(244, 209, 121, 0.441);
+    font-size: 24px;
+}
+
+.jhin2{
+    font-size: 24px;
+    color: rgba(239, 191, 71, 0.788);
+}
+
+.textjhin{
+    color: rgba(251, 224, 191, 0.908);
+    margin-top: 80px;
+}
+
+#linetext2{
+    border: 1px solid rgba(239, 208, 129, 0.69);
+    width: 100%;
+    margin-top: 40px;
+}
+.jhinbackground{
+    width: 100%;
+    opacity: 0.10;
+    height: 100%;
+}
+
+.textcuriosidade{
+    position: absolute;
+    margin-top: 350px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    color: rgba(251, 224, 191, 0.908);
+    line-height: 40px;
+}
+
+.textcuriosidade::first-letter{
+    font-size: 80px;
+    letter-spacing: 10px;
+    text-decoration: underline 5px rgba(239, 191, 71, 0.788);
+}
+
+.adcicon{
+    width: 25%;
+    margin-left: 30px;
+    margin-top: 30px;
+    
+}
+
+#lineicon{
+    width: 132%;
+    border: 1px solid rgba(239, 208, 129, 0.69);
+    margin-top: 70px;
+}
+
+.funçao{
+    color: rgba(239, 191, 71, 0.788);
+    display: block;
+    margin-left: 140px;
+    margin-top: -60px;
+    letter-spacing: 3px;
+}
+
+.atirador{
+    color: rgba(251, 224, 191, 0.908);
+    display: block;
+    margin-left: 130px;
+    margin-top: -20px;
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+
+.ionia{
+    width: 20%;
+    height: 660px;
+    opacity: 0.09;
+    position: absolute;
+    margin: 0;
+
+}
+
+.ioniaicon{
+   width: 15%;
+   position: absolute;
+   margin-top: 130px;
+   margin-left: 43px;
+   transition: all ease-in-out 0.3s;
+}
+
+.ioniaicon:hover{
+    transition: all ease-in-out 0.3s;
+    transform: scale(1.2);
+}
+
+.lineionia{
+    position: absolute;
+    margin-top: 500px;
+}
+
+.regiaoionia{
+    margin-top: 450px;
+    color: rgba(239, 191, 71, 0.788);
+    letter-spacing: 3px;
+    text-align: center;
+    margin-left: 85px;
+    
+}
+
+.terraionia{
+    color: rgba(251, 224, 191, 0.908);
+    letter-spacing: 3px;
+    text-align: center;
+    margin-left: 85px;
+}
+
+.container{
+    background-color: rgb(18, 18, 18);
+    display: flex;
+}
+
+.interaçoes{
+    background-color: rgb(17, 17, 30);
+    width: 28.5%;
+    height: 800px;
+    margin-left: 50px;
+    margin-top: 30px;
+    border: 1px solid rgba(239, 208, 129, 0.69);
+}
+    
+
+#interaçaoshen{
+    width: 30%;
+    border-radius: 70%;
+    margin-top: 20px;
+    margin-left: 135px;
+    border: 4px solid rgba(244, 209, 121, 0.441);
+    
+}
+
+#interaçaozed{
+    width: 30%;
+    border-radius: 70%;
+    margin-left: 135px;
+    margin-top: 20px;
+    border: 4px solid rgba(244, 209, 121, 0.441);
+}
+
+#interaçaoillaoi{
+    width: 30%;
+    border-radius: 70%;
+    margin-left: 135px;
+    margin-top: 20px;
+    border: 4px solid rgba(244, 209, 121, 0.441);
+    
+}
+
+#textinteraçao{
+    text-align: center;
+    margin-top: 70px;
+    color: rgba(251, 224, 191, 0.908);
+    letter-spacing: 4px;
+    font-size: 50px;
+}
+
+#champ1{
+    margin-left: 169px;
+    color: rgba(235, 235, 185, 0.767);
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+#champ2{
+    margin-left: 182px;
+    color: rgba(235, 235, 185, 0.767);
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+#champ3{
+    margin-left: 170px;
+    color: rgba(235, 235, 185, 0.767);    
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+.audioshen1{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.audioshen2{
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.audioshen3{
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.audioshen4{
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.audioshen5{
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.audiozed1{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.audiozed2{
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.audiozed3{
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.audiozed4{
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.audiozed5{
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.audioillaoi1{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.audioillaoi2{
+    margin-left: 50px;
+    margin-top: 60px;
+}
+.audioillaoi3{
+    margin-left: 50px;
+    margin-top: 60px;
+}
+.audioillaoi4{
+    margin-left: 50px;
+    margin-top: 60px;
+}
+.audioillaoi5{
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.container2{
+    background-color: rgb(18, 18, 18);
+    margin-top: 120px;
+    height: 400px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#riotgamesicon{
+    width: 16%;
+}
+
+a{
+    color: grey;
+    font-size: 28px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#classificação12{
+    width: 18%;
+    margin-top: 70px;
+}
+
+a:hover{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
